@@ -85,7 +85,13 @@ gh repo clone nailasuely/task07-pwm
 ![---](https://github.com/nailasuely/task05-clock/blob/main/src/prancheta.png)
 
 ## 🎥 Vídeo de Demonstração
-[Link](https://youtu.be/WZbDXFe_Wms)
+[Link do vídeo completo](https://youtu.be/WZbDXFe_Wms)
+
+1. **Teste no simulador**  
+   <div align="center">
+      <img width="800px" src="https://github.com/nailasuely/task07-pwm/blob/main/src/simulador.gif" />
+      <p>Fig 1. Teste no simulador.</p>
+   </div>
 
 ![---](https://github.com/nailasuely/task07-pwm/blob/main/src/prancheta.png)
 
