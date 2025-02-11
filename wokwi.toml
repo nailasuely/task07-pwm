@@ -1,0 +1,4 @@
+[wokwi]
+version = 1
+firmware = 'build/task07-pwm.hex'
+elf = 'build/task07-pwm.elf'
