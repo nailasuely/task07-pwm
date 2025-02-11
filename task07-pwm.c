@@ -22,10 +22,15 @@ uint16_t convert_us_to_pwm_level(uint16_t us) {
     return (us * PWM_WRAP) / 20000;  // microsegundos para nível PWM
 }
 
-// função para definir a intensidade do LED RGB baseado no ângulo do servo
+// Função para definir a intensidade do LED RGB baseado no ângulo do servo
 void set_led_brightness(uint slice, uint16_t us) {
-    uint16_t brightness = convert_us_to_pwm_level(SERVO_MAX_US - us);  
-    pwm_set_gpio_level(LED_RGB, brightness);
+    // Desliga o LED quando o servo está em 0° (500µs)
+    if (us == SERVO_MIN_US) {
+        pwm_set_gpio_level(LED_RGB, 0);  // Desliga o LED
+    } else {
+        uint16_t brightness = convert_us_to_pwm_level(SERVO_MAX_US - us);  
+        pwm_set_gpio_level(LED_RGB, brightness);  // Ajusta o brilho do LED
+    }
 }
 
 int main() {
