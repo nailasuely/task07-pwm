@@ -33,10 +33,11 @@ gh repo clone nailasuely/task07-pwm
 - [📌 Requisitos](#-requisitos)
 - [🔧 Componentes Utilizados](#-componentes-utilizados)
 - [📂 Estrutura do Projeto](#-estrutura-do-projeto)
+- [📝 Respostas às Perguntas](-respostas-as-perguntas)
 - [🚀 Como Executar](#-como-executar)
   - [✅ Pré-requisitos](#-pré-requisitos)
   - [📌 Passos para Execução](#-passos-para-execução)
-- [🎥 Vídeo Demonstração](#-vídeo-demonstração)
+- [🎥 Vídeo de Demonstração](#-vídeo-de-demonstração)
 - [👩‍💻 Autora](#-autora)
 - [📚 Referências](-referencias).
 
@@ -67,6 +68,40 @@ gh repo clone nailasuely/task07-pwm
   
 ![---](https://github.com/nailasuely/task05-clock/blob/main/src/prancheta.png)
 
+## 📝 Respostas às Perguntas
+
+
+1. **Cálculo do Duty Cycle para cada ângulo**
+
+- **180° (2.400µs)**
+
+$$
+\text{Duty Cycle} = \frac{2.400}{20.000} \times 100 = 12\%
+$$
+
+
+- **90° (1.470µs)**
+  
+$$
+\text{Duty Cycle} = \frac{1.470}{20.000} \times 100 = 7,35\%
+$$
+
+
+- **0° (500µs)**
+  
+$$
+\text{Duty Cycle} = \frac{500}{20.000} \times 100 = 2,5\%
+$$
+
+2.   **Comportamento do LED RGB (GPIO 12)**
+O LED **simula o comportamento do servo**:  
+- **Se apaga em 0°** (500µs).  
+- **Aumenta o brilho até 180°** (2400µs).  
+- **Ajusta a intensidade conforme o ciclo ativo do PWM**.
+
+
+
+![---](https://github.com/nailasuely/task05-clock/blob/main/src/prancheta.png)
 ## 🚀 Como Executar  
 
 ### ✅ Pré-requisitos  
