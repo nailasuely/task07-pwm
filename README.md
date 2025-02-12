@@ -33,13 +33,14 @@ gh repo clone nailasuely/task07-pwm
 - [📌 Requisitos](#-requisitos)
 - [🔧 Componentes Utilizados](#-componentes-utilizados)
 - [📂 Estrutura do Projeto](#-estrutura-do-projeto)
-- [📝 Respostas às Perguntas](-respostas-as-perguntas)
+- [📝 Respostas às Perguntas](#-respostas-às-perguntas)
 - [🚀 Como Executar](#-como-executar)
   - [✅ Pré-requisitos](#-pré-requisitos)
   - [📌 Passos para Execução](#-passos-para-execução)
 - [🎥 Vídeo de Demonstração](#-vídeo-de-demonstração)
 - [👩‍💻 Autora](#-autora)
-- [📚 Referências](-referencias).
+- [📚 Referências](#-referências)
+
 
 </details>
 
